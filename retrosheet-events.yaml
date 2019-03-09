@@ -1,0 +1,30 @@
+dbname: yaml_to_sample_db
+tables:
+  - name: games
+    primarykey: col_1
+    foreignkeys: 
+      - table: ~
+        column: ~
+    columns: 
+      - name: col_1
+        datatype: varchar
+        size: 32
+        nullable: false
+      - name: col_2
+        datatype: integer
+        size: 0
+        nullable: false
+  - name: table_1
+    primarykey: col_1
+    foreignkeys:
+      - table: games
+        column: col_1
+    columns: 
+      - name: col_1
+        datatype: varchar
+        size: 32
+        nullable: false
+      - name: col_2
+        datatype: integer
+        size: ~
+        nullable: false
