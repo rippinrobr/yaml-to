@@ -1,4 +1,8 @@
 [[package]]
+name = "barrel"
+version = "0.5.0-rc.1"
+
+[[package]]
 name = "dtoa"
 version = "0.4.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -77,6 +81,7 @@ dependencies = [
 name = "yaml-to"
 version = "0.1.0"
 dependencies = [
+ "barrel 0.5.0-rc.1",
  "serde 1.0.89 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.89 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_yaml 0.8.8 (registry+https://github.com/rust-lang/crates.io-index)",
